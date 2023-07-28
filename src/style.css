@@ -1,0 +1,91 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background:#000000;
+    text-align: center;
+}
+
+#root {
+    color: #FFFFFF;
+    font-size: 15px;
+    padding-left: 500px;
+}
+
+.ifr--gif{
+    display: flex;
+    width: 100%;
+    padding: 2px 80px;
+}
+    
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding: 8px 10px;
+    text-decoration: underline;
+    color: #f8e8e863;
+}
+
+.cantidad{ 
+    padding: 5px 50px;
+}
+.cifrar {
+    color: #FFFFFF;
+    padding: 2px;
+}
+
+#input {
+    margin: 3px;
+    font-size: 15px;
+    width: 4.5%;
+}
+#btnInsertar{
+    margin: 10px;
+    padding: 2px 10px 5px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#btnInsertar:hover{
+    background: rgb(164, 157, 164);
+    transition: 2s;
+    opacity: 30%;
+}
+.hey--sinÑ {
+    color: #c56262;
+    font-size: 15px;
+}
+
+.txt--pala {
+
+    margin: 10px;
+}
+
+#texto {
+    background-color: hsl(60, 15%, 82%);
+    font-size: 19px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px;
+    border: 2px solid #f8e8e863;
+    box-shadow: 10px 10px 10px 8px #dfddd8;
+}
+
+.btnsEnDe{
+    padding: 10px;
+}
+
+#btnEncode, #btnDecode{ 
+    margin: 10px;
+    padding: 2px 10px 5px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+footer{
+    color: #FFFFFF;
+    font-size: 13px;
+    text-decoration: underline;
+}
